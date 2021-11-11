@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/drawable_rounded_borders"
+        android:orientation="horizontal"
+        android:layout_marginVertical="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/lq_img_owner_image"
+            android:layout_width="80dp"
+            android:layout_gravity="center"
+            android:layout_margin="1dp"
+            android:layout_height="80dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/black"
+                android:lines="2"
+                android:id="@+id/lq_tv_question_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/lq_tv_owner_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp" />
+
+            <TextView
+                android:textColor="@color/black"
+                android:id="@+id/lq_tv_date_posted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="asdasdasasdasd" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
